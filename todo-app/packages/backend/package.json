@@ -1,0 +1,22 @@
+{
+  "name": "@app/backend",
+  "version": "0.1.0",
+  "description": "Demo todo App with Express Server",
+  "main": "index.js",
+  "repository": "https://github.com/ntphat1711999/projects-nodejs.git",
+  "author": "Phat <tanphat1711999@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-list-endpoints": "^4.0.1"
+  },
+  "scripts": {
+    "serve": "nodemon src/app.js",
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
